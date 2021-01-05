@@ -24,8 +24,9 @@ header {
     width: 100vw;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     display: grid;
-    grid-template-columns: 2fr 2fr auto;
+    grid-template-columns: 1fr 1fr auto;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: 
     "contact name image"
@@ -40,7 +41,6 @@ header {
     width: 50px;
     filter: invert(100%);
     margin: 10px;
-
 }
 
 .contact, .education, .experience, .goals, .name, .skill {
@@ -122,6 +122,10 @@ main {
     "contact contact";
 }
 
+#goals, #skill, #language, #education, #experience, #contact {
+    padding: 30px 20px 15px;
+}
+
 #goals {
     grid-area: goals;
     background-color: #4b3f72;
@@ -152,6 +156,8 @@ main {
     background-color: #1F2041;
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding-top: 15px;
 
 }
 
@@ -170,6 +176,10 @@ main h2, main p, main h3, main ul {
     color: white;
 }
 
+img[src="images/upwork.svg"] {
+    height: 58px !important;
+    width: 58px !important;
+}
 
 footer {
     background-color:#FFC857;
