@@ -115,6 +115,10 @@ h2 {
     width: 100%;
 }
 
+.goals:hover, .skill:hover, .education:hover, .experience:hover {
+    opacity: 0.9;
+}
+
 main {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -126,7 +130,7 @@ main {
     "contact contact";
 }
 
-#goals, #skill, #language, #education, #experience, #contact {
+#goals, #skill, #language, #education, #experience, #contact, .goal1, .goal2, .goal3, .goal4 {
     padding: 30px 20px 15px;
 }
 
@@ -135,16 +139,35 @@ main {
     background-color: #4b3f72;
 }
 
+.goalsgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 #skill {
     grid-area: skill;
     background-color: #119DA4;
-    display: flex;
-    flex-wrap: wrap;
+}
+
+.skillgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.skill1, .skill2, .skill3, .skill4, .skill5, .skill6, .skill7, .goal1, .goal2, .goal3, .goal4 {
+    margin: 20px;
 }
 
 #language {
     grid-area: language;
     background-color: #1F2041;
+}
+
+.languageflex {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
 }
 
 #education {
@@ -155,6 +178,19 @@ main {
 #experience {
     grid-area: experience;
     background-color: #19647E;
+}
+
+em {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+#experience h3, #education h3 {
+    margin: 10px auto 1px;
+}
+
+#experience p, #education p, ul {
+    margin: 1px auto 1px;
 }
 
 #contact {
