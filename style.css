@@ -280,23 +280,30 @@ footer p {
     header {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         grid-template-areas: 
         "goals experience"
-        "skill sas"
-        "education sas"
+        "skill image"
+        "education image"
         "name name"
         "contact contact";
+    }
+
+    .image img {
+        display: none;
+    }
+
+    .image {
+        height: 100%;
+        width: 100%;
         background-image: url("images/DSC_6192.JPG");
         background-size: cover;
     }
 
-    .image {
-        display: none;
-    }
+
 
     .contact, .education, .experience, .goals, .name, .skill {
-        opacity: 0.8;
+        opacity: 1;
     }
     
     main {
