@@ -145,7 +145,7 @@ main {
 .goalsgrid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-image: url("/images/confetti.png");
+    background-image: url("images/confetti.png");
 }
 
 #skill {
@@ -166,7 +166,7 @@ main {
 #language {
     grid-area: language;
     background-color: #1F2041;
-    background-image: url("/images/vippng.com-geometric-png-1151770.png");
+    background-image: url("images/vippng.com-geometric-png-1151770.png");
     background-repeat: no-repeat;
     background-position: right center;
 }
@@ -207,7 +207,7 @@ em {
     justify-content: center;
     align-items: center;
     padding-top: 15px;
-    background-image: url("/images/geometry-clipart-background-transparent.png");
+    background-image: url("images/geometry-clipart-background-transparent.png");
     background-repeat: no-repeat;
     background-position: right center;
 
