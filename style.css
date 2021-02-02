@@ -137,6 +137,9 @@ main {
 #goals {
     grid-area: goals;
     background-color: #4b3f72;
+    border-top-width: 10px;
+    border-top-style: solid;
+    border-top-color: #FFC857;
 }
 
 .goalsgrid {
