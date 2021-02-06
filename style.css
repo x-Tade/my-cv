@@ -340,6 +340,11 @@ footer p {
         padding: 15px;
     }
 
+    .experienceFlex, .educationFlex {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
     #contact {
         grid-area: contact;
         background-color: #1F2041;
