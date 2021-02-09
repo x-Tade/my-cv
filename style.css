@@ -318,7 +318,7 @@ footer p {
         "contact";
     }
     
-    #goals, #skill, #language, #education, #experience, #contact, .goal1, .goal2, .goal3, .goal4 {
+    #skill, #language, #education, #experience, #contact, .goal1, .goal2, .goal3, .goal4 {
         padding: 30px 10px 15px;
     }
 
@@ -346,6 +346,7 @@ footer p {
     }
 
     #contact {
+        padding: 30px 5px 15px;
         grid-area: contact;
         background-color: #1F2041;
         display: flex;
